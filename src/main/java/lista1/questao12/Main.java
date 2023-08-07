@@ -19,18 +19,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Bem vindo ao seu app de contabilização!");
-        String escolhaMenu;
+        String escolhaMenu="1";
         int quilometro, gasolina;
         List<Tanque> tanques = new ArrayList<>();
-
-        System.out.println("---------------------------------");
-        System.out.println("Digite:");
-        System.out.println("---------");
-        System.out.println("1 - Adicionar um novo tanque");
-        System.out.println("4 - Encerrar programa");
-        System.out.println("---------------------------------");
-
-        escolhaMenu = sc.nextLine();
 
         while(!escolhaMenu.equals("4")){
             System.out.println("Digite quantos quilômetros foram dirigidos:");
